@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextUtils</title>
+    <style>
+   body{
+    width:"100px";
+    background-color:"red";
+    }
+    </style>
+</head>
+<body style="background-color:pink;position:fixed">
+ <h1 style="color:black;position:relative;font-size:50px;left:170px">welcome to text Analyzer,Enter your text here</h1>
+
+<form action='./analyze',method='get'>
+
+    <textarea name="text" style="position:relative;left:300px;border:2px solid red;height:93px;width:721px;margin:20px"></textarea>
+    <input style="position:relative;left:-120px" type="checkbox" name="removepunc"><h5 style="position:relative;left:685px;top:-40px" >remove Punctuations</h5><br>
+<br>
+    <input style="position:relative;left:653px;top:-100px" type="checkbox" name="fullcaps"><h5 style="position:relative;left:685px;top:-137px" >UPPERCASE</h5><br>
+<br>
+    <input style="position:relative;left:653px;top:-200px" type="checkbox" name="newlineremover"><h5 style="position:relative;left:685px;top:-237px" >New line remover</h5><br>
+<br>
+<input style="position:relative;left:653px;top:-300px" type="checkbox" name="extrasapaceremover"><h5 style="position:relative;left:685px;top:-337px" >Extra space remover</h5><br>
+<br>
+<input style="position:relative;left:653px;top:-400px" type="checkbox" name="charcounter"><h5 style="position:relative;left:685px;top:-437px" >character counter</h5><br>
+<br>
+
+
+    <button style="position:relative;left:670px;top:-475px;border:2px solid black;border-radius:10px;height:30px" type="submit">Analyze text</button>
+</form>
+
+
+</body>
+</html>
